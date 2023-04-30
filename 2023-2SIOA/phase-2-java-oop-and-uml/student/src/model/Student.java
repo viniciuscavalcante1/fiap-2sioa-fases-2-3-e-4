@@ -4,7 +4,7 @@ public class Student {
     private Integer rm;
     private String name;
     private String email;
-    private String address;
+    private Address address;
     private String cpf;
     private String rg;
 
@@ -32,11 +32,11 @@ public class Student {
         this.email = email;
     }
 
-    public String getAddress() {
+    public Address getAddress() {
         return address;
     }
 
-    public void setAddress(String address) {
+    public void setAddress(Address address) {
         this.address = address;
     }
 

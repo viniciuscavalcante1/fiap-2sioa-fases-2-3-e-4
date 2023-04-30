@@ -1,4 +1,5 @@
 package view;
+import model.Address;
 import model.Student;
 import java.util.Scanner;
 public class ViewStudent {
@@ -32,8 +33,8 @@ public class ViewStudent {
         student.setName(sc.nextLine());
         System.out.println("Email:");
         student.setEmail(sc.nextLine());
-        System.out.println("Address:");
-        student.setAddress(sc.nextLine());
+        System.out.println("Address: (street, number, zip, city and state)");
+        student.setAddress(new Address(sc.nextLine(), Integer.parseInt(sc.nextLine()), sc.nextLine(), sc.nextLine(), sc.nextLine()));
         System.out.println("CPF:");
         student.setCpf(sc.nextLine());
         System.out.println("RG:");
