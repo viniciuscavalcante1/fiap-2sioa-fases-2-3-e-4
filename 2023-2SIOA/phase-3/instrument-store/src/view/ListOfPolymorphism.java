@@ -1,4 +1,8 @@
-package model;
+package view;
+import model.Drum;
+import model.Guitar;
+import model.Product;
+
 import java.util.ArrayList;
 public class ListOfPolymorphism {
     public static void main(String[] args) {
