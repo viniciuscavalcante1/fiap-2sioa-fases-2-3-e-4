@@ -1,6 +1,6 @@
 package model;
 
-public final class Basketball implements Game{
+public final class Football implements Game {
 
     @Override
     public void setHomeTeam(String team) {
