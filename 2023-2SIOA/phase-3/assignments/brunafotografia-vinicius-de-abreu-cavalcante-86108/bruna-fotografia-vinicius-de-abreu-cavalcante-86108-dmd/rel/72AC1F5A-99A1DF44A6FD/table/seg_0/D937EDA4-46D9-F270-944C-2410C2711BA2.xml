@@ -1,0 +1,53 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D937EDA4-46D9-F270-944C-2410C2711BA2" name="T_CLIENTE">
+<createdBy>Pichau</createdBy>
+<createdTime>2023-05-09 02:06:14 UTC</createdTime>
+<generatorID>F600575D-677A-242A-C781-AFF2BFF0DFA0</generatorID>
+<ownerDesignName>bruna-fotografia-vinicius-de-abreu-cavalcante-86108-dmd</ownerDesignName>
+<ordsAlias>cliente</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_pessoa" id="9C094344-B4DC-AB6E-65FE-012B2F6D74CE">
+<createdBy>Pichau</createdBy>
+<createdTime>2023-05-09 02:06:14 UTC</createdTime>
+<generatorID>EA693118-09DD-E09D-4B07-C8E05455A780</generatorID>
+<ownerDesignName>bruna-fotografia-vinicius-de-abreu-cavalcante-86108-dmd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>100000</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5CC9BA74-B697-705E-6F4F-56A1AEED4378" referredColumn="CF15BC4F-F4C6-E956-1282-7325CE7C97DE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E2B3BF9D-74FD-1CEE-1FD8-C4330A61030B" name="CLIENTE_PK">
+<createdBy>Pichau</createdBy>
+<createdTime>2023-05-09 02:06:14 UTC</createdTime>
+<generatorID>AE6F704D-4C8A-9521-AC3F-BC81AD34AA51</generatorID>
+<ownerDesignName>bruna-fotografia-vinicius-de-abreu-cavalcante-86108-dmd</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9C094344-B4DC-AB6E-65FE-012B2F6D74CE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CBE5DA0D-DDA0-5A4D-83FB-C8A6A743A8BF" name="CLIENTE_PESSOA_FK">
+<createdBy>Pichau</createdBy>
+<createdTime>2023-05-09 02:06:14 UTC</createdTime>
+<generatorID>8380B989-0EAA-6DE8-333B-46FE8692C656</generatorID>
+<ownerDesignName>bruna-fotografia-vinicius-de-abreu-cavalcante-86108-dmd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9C094344-B4DC-AB6E-65FE-012B2F6D74CE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

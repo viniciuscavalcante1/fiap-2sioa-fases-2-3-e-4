@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7C08F6DF-7EEF-927E-B265-AA985ACA3D91" name="FOTOGRAFA">
+<createdBy>Pichau</createdBy>
+<createdTime>2023-05-09 01:47:20 UTC</createdTime>
+<ownerDesignName>bruna-fotografia-vinicius-de-abreu-cavalcante-86108-dmd</ownerDesignName>
+<engineerTo>
+<item key="72AC1F5A-E2C8-5F22-65E1-99A1DF44A6FD" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>10E64822-7BEE-899C-D2BD-7AF228B047C4</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="especialidade" id="613EDFC9-8D33-5B65-BB9D-0839DDD3D51A">
+<createdBy>Pichau</createdBy>
+<createdTime>2023-05-09 01:50:46 UTC</createdTime>
+<ownerDesignName>bruna-fotografia-vinicius-de-abreu-cavalcante-86108-dmd</ownerDesignName>
+<engineerTo>
+<item key="72AC1F5A-E2C8-5F22-65E1-99A1DF44A6FD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<listOfValues>
+<valueDef value="casamento" description=""/>
+<valueDef value="marcas" description=""/>
+<valueDef value="mulheres" description=""/>
+<valueDef value="newborn" description=""/>
+<valueDef value="retrato" description=""/>
+</listOfValues>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="website" id="E58AC035-CB51-0810-656E-65C737A9338F">
+<createdBy>Pichau</createdBy>
+<createdTime>2023-05-09 01:47:37 UTC</createdTime>
+<ownerDesignName>bruna-fotografia-vinicius-de-abreu-cavalcante-86108-dmd</ownerDesignName>
+<engineerTo>
+<item key="72AC1F5A-E2C8-5F22-65E1-99A1DF44A6FD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="precoPorHora" id="31D839B1-FC5E-4816-FC99-FC866A6AAD87">
+<createdBy>Pichau</createdBy>
+<createdTime>2023-05-09 01:52:53 UTC</createdTime>
+<ownerDesignName>bruna-fotografia-vinicius-de-abreu-cavalcante-86108-dmd</ownerDesignName>
+<engineerTo>
+<item key="72AC1F5A-E2C8-5F22-65E1-99A1DF44A6FD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10000</dataTypePrecision>
+<ownDataTypeParameters>,10000,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="camera" id="0320D962-3632-EF42-ECEB-EAAC4B14E579">
+<createdBy>Pichau</createdBy>
+<createdTime>2023-05-09 01:53:19 UTC</createdTime>
+<ownerDesignName>bruna-fotografia-vinicius-de-abreu-cavalcante-86108-dmd</ownerDesignName>
+<engineerTo>
+<item key="72AC1F5A-E2C8-5F22-65E1-99A1DF44A6FD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

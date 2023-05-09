@@ -1,0 +1,238 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="75E3962F-0FFA-45AD-FD2A-35D0570E92C9" name="T_ENDERECO">
+<createdBy>Pichau</createdBy>
+<createdTime>2023-05-09 01:45:10 UTC</createdTime>
+<generatorID>32CA00EE-4C5D-8CB6-F5C6-8FD64247EB69</generatorID>
+<ownerDesignName>bruna-fotografia-vinicius-de-abreu-cavalcante-86108-dmd</ownerDesignName>
+<ordsAlias>endereco</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_endereco" id="6108891F-5456-7839-886C-31268CB1A0B6">
+<createdBy>Pichau</createdBy>
+<createdTime>2023-05-09 01:45:10 UTC</createdTime>
+<generatorID>15E8ABC5-6DBD-124A-3002-BDD1506C75FB</generatorID>
+<ownerDesignName>bruna-fotografia-vinicius-de-abreu-cavalcante-86108-dmd</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>100000</dataTypePrecision>
+<ownDataTypeParameters>,100000,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipo_logradouro" id="FC22DAD7-4F4A-E882-4F5C-31455A24307A">
+<createdBy>Pichau</createdBy>
+<createdTime>2023-05-09 01:45:10 UTC</createdTime>
+<generatorID>0E305D9C-FF88-524A-E790-DDF023F629B7</generatorID>
+<ownerDesignName>bruna-fotografia-vinicius-de-abreu-cavalcante-86108-dmd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="logradouro" id="ABB6553C-6CC2-9778-A128-F7FA6D9FBF27">
+<createdBy>Pichau</createdBy>
+<createdTime>2023-05-09 01:45:10 UTC</createdTime>
+<generatorID>75F85D18-5C45-F47C-6885-F1FB87983A8D</generatorID>
+<ownerDesignName>bruna-fotografia-vinicius-de-abreu-cavalcante-86108-dmd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>35</dataTypeSize>
+<ownDataTypeParameters>35,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="numero" id="443F5CC4-AC74-571B-F492-F86B9327D2A9">
+<createdBy>Pichau</createdBy>
+<createdTime>2023-05-09 01:45:10 UTC</createdTime>
+<generatorID>79893E8D-6A6E-4968-9BD3-C7C4EB4897A7</generatorID>
+<ownerDesignName>bruna-fotografia-vinicius-de-abreu-cavalcante-86108-dmd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="complemento" id="B830C6C1-D856-0D98-C953-4C01C0907916">
+<createdBy>Pichau</createdBy>
+<createdTime>2023-05-09 01:45:10 UTC</createdTime>
+<generatorID>A4EC5A78-F64F-64CB-B991-06B2007107F8</generatorID>
+<ownerDesignName>bruna-fotografia-vinicius-de-abreu-cavalcante-86108-dmd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cep" id="C83CC235-A8ED-0A16-FFE6-C9579AFB1AD9">
+<createdBy>Pichau</createdBy>
+<createdTime>2023-05-09 01:45:10 UTC</createdTime>
+<generatorID>F2E510F7-D06D-4CD3-7681-C6AEF0B0940B</generatorID>
+<ownerDesignName>bruna-fotografia-vinicius-de-abreu-cavalcante-86108-dmd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="bairro" id="6B55ADE6-80A6-1133-5CB6-887ECBDF3E7E">
+<createdBy>Pichau</createdBy>
+<createdTime>2023-05-09 01:45:10 UTC</createdTime>
+<generatorID>430BD886-FCB7-92E1-7608-A8E46320B87A</generatorID>
+<ownerDesignName>bruna-fotografia-vinicius-de-abreu-cavalcante-86108-dmd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cidade" id="5CDC9A8C-2C82-9321-406A-20437BBE4A96">
+<createdBy>Pichau</createdBy>
+<createdTime>2023-05-09 01:45:10 UTC</createdTime>
+<generatorID>5B486B54-9C04-F472-7004-F1D474D5C048</generatorID>
+<ownerDesignName>bruna-fotografia-vinicius-de-abreu-cavalcante-86108-dmd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="estado" id="B43720AD-825E-BE23-B668-419D264624F7">
+<createdBy>Pichau</createdBy>
+<createdTime>2023-05-09 01:45:10 UTC</createdTime>
+<generatorID>7D8A50FB-3BEA-6159-F541-E38EB37412B8</generatorID>
+<ownerDesignName>bruna-fotografia-vinicius-de-abreu-cavalcante-86108-dmd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pais" id="3D8F9A98-A9BF-47FD-C36A-D71F14685A73">
+<createdBy>Pichau</createdBy>
+<createdTime>2023-05-09 01:45:10 UTC</createdTime>
+<generatorID>9F4C0B70-0A67-5371-7416-A35EF94F4446</generatorID>
+<ownerDesignName>bruna-fotografia-vinicius-de-abreu-cavalcante-86108-dmd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PESSOA_id_pessoa" id="25D79E79-3177-8D29-F947-F2A9323AA703">
+<createdBy>Pichau</createdBy>
+<createdTime>2023-05-09 01:45:10 UTC</createdTime>
+<generatorID>97D9F2F5-45AC-BE90-D9DD-78CDA195F2D5</generatorID>
+<ownerDesignName>bruna-fotografia-vinicius-de-abreu-cavalcante-86108-dmd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>100000</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="257C6917-2C37-D53B-5D60-5768E7E74BF2" referredColumn="CF15BC4F-F4C6-E956-1282-7325CE7C97DE"/>
+</associations>
+</Column>
+<Column name="ENSAIO_id_ensaio" id="B4040586-958C-F59B-51C7-335A874A0A3D">
+<createdBy>Pichau</createdBy>
+<createdTime>2023-05-09 02:06:14 UTC</createdTime>
+<generatorID>A3508C7C-288B-31CF-63DD-A8E1F91FD9B5</generatorID>
+<ownerDesignName>bruna-fotografia-vinicius-de-abreu-cavalcante-86108-dmd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>100000</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="903AF1BF-442E-487E-32D2-35209834FBB5" referredColumn="5C1A4AB6-78D1-5C4B-F2C6-B275657EC998"/>
+</associations>
+</Column>
+<Column name="ENSAIO_FOTOGRAFA_id_pessoa" id="56F361E6-769E-93E6-7B85-22C803C1C941">
+<createdBy>Pichau</createdBy>
+<createdTime>2023-05-09 02:06:14 UTC</createdTime>
+<generatorID>7EB33EA7-C73A-B331-4EBF-E32B701D7521</generatorID>
+<ownerDesignName>bruna-fotografia-vinicius-de-abreu-cavalcante-86108-dmd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>100000</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="903AF1BF-442E-487E-32D2-35209834FBB5" referredColumn="43C5B632-F654-05A3-64F0-3DDC89EBF63B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F6E8C622-7A53-DDF9-D274-6AE84AAEC4ED" name="ENDERECO_PK">
+<createdBy>Pichau</createdBy>
+<createdTime>2023-05-09 01:45:10 UTC</createdTime>
+<generatorID>6D9D2D28-DD3F-EA10-8B06-5AE54A52C316</generatorID>
+<ownerDesignName>bruna-fotografia-vinicius-de-abreu-cavalcante-86108-dmd</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6108891F-5456-7839-886C-31268CB1A0B6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="18625E1B-DBFA-C7DE-458E-A4B1955FAA32" name="ENDERECO__IDX">
+<createdBy>Pichau</createdBy>
+<createdTime>2023-05-09 02:06:14 UTC</createdTime>
+<ownerDesignName>bruna-fotografia-vinicius-de-abreu-cavalcante-86108-dmd</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>2DBFA39B-80F8-E345-2CB6-73D5A03EE46E</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="B4040586-958C-F59B-51C7-335A874A0A3D"/>
+<colUsage columnID="56F361E6-769E-93E6-7B85-22C803C1C941"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EC4573B2-04DD-4577-890F-539FC3C7FD81" name="ENDERECO_PESSOA_FK">
+<createdBy>Pichau</createdBy>
+<createdTime>2023-05-09 01:45:10 UTC</createdTime>
+<generatorID>50D22694-B269-9FAF-0A42-0A9DE9B2D106</generatorID>
+<ownerDesignName>bruna-fotografia-vinicius-de-abreu-cavalcante-86108-dmd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="25D79E79-3177-8D29-F947-F2A9323AA703"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A92D5964-D714-57B2-8CA1-13E423BEA4F2" name="ENDERECO_ENSAIO_FK">
+<createdBy>Pichau</createdBy>
+<createdTime>2023-05-09 02:06:14 UTC</createdTime>
+<generatorID>2DBFA39B-80F8-E345-2CB6-73D5A03EE46E</generatorID>
+<ownerDesignName>bruna-fotografia-vinicius-de-abreu-cavalcante-86108-dmd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B4040586-958C-F59B-51C7-335A874A0A3D"/>
+<colUsage columnID="56F361E6-769E-93E6-7B85-22C803C1C941"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

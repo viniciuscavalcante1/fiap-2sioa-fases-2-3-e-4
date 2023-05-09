@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="C3EB8749-14FC-C346-1C6A-0C9C26F93955" mainViewID="4F143A87-3204-4545-AADF-5D0CEFC89A8B">
+<createdBy>Pichau</createdBy>
+<createdTime>2023-05-09 00:39:46 UTC</createdTime>
+<ownerDesignName>modelo-logico-agenda-vinicius-de-abreu-cavalcante-86108</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

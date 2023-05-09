@@ -1,0 +1,178 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="686FEA1C-D60F-5AA6-D34E-18F919B2CADB" name="T_ENSAIO">
+<createdBy>Pichau</createdBy>
+<createdTime>2023-05-09 02:06:14 UTC</createdTime>
+<generatorID>62EF7F61-0C50-D1ED-A102-DC272FF5A415</generatorID>
+<ownerDesignName>bruna-fotografia-vinicius-de-abreu-cavalcante-86108-dmd</ownerDesignName>
+<ordsAlias>ensaio</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_ensaio" id="5C1A4AB6-78D1-5C4B-F2C6-B275657EC998">
+<createdBy>Pichau</createdBy>
+<createdTime>2023-05-09 02:06:14 UTC</createdTime>
+<generatorID>DFDBBB0F-ABB0-15F3-C5AB-EFCA114AC278</generatorID>
+<ownerDesignName>bruna-fotografia-vinicius-de-abreu-cavalcante-86108-dmd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>100000</dataTypePrecision>
+<ownDataTypeParameters>,100000,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data" id="96827EAE-D4BC-5C5D-C822-38FB5449CD6E">
+<createdBy>Pichau</createdBy>
+<createdTime>2023-05-09 02:06:14 UTC</createdTime>
+<generatorID>C2150AE8-41D4-E795-AABC-DB46E9FDEA09</generatorID>
+<ownerDesignName>bruna-fotografia-vinicius-de-abreu-cavalcante-86108-dmd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipo" id="FEA16878-78C5-1B09-D21D-45C2228850F0">
+<createdBy>Pichau</createdBy>
+<createdTime>2023-05-09 02:06:14 UTC</createdTime>
+<generatorID>2AF03BD3-B55C-7172-A2CD-A93C773B0252</generatorID>
+<ownerDesignName>bruna-fotografia-vinicius-de-abreu-cavalcante-86108-dmd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<listOfValues>
+<valueDef value="aniversario" description=""/>
+<valueDef value="casamento" description=""/>
+<valueDef value="evento" description=""/>
+<valueDef value="marcapessoal" description=""/>
+<valueDef value="newborn" description=""/>
+<valueDef value="parque" description=""/>
+<valueDef value="retrato" description=""/>
+<valueDef value="smash" description=""/>
+</listOfValues>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="duracao" id="0A003B6B-A2D4-63A6-9606-79C461EC259B">
+<createdBy>Pichau</createdBy>
+<createdTime>2023-05-09 02:06:14 UTC</createdTime>
+<generatorID>B0309439-7C5B-379A-4ABE-B4F48437CC1C</generatorID>
+<ownerDesignName>bruna-fotografia-vinicius-de-abreu-cavalcante-86108-dmd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>24</dataTypePrecision>
+<ownDataTypeParameters>,24,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="qtdFotos" id="AFBF6F17-D6B2-136E-1A2C-2B42F6A87BCD">
+<createdBy>Pichau</createdBy>
+<createdTime>2023-05-09 02:06:14 UTC</createdTime>
+<generatorID>4503FEB7-4BB7-A2BD-68AB-8F1DCA8EABEE</generatorID>
+<ownerDesignName>bruna-fotografia-vinicius-de-abreu-cavalcante-86108-dmd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10000</dataTypePrecision>
+<ownDataTypeParameters>,10000,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="precoTotal" id="9FE9C7C2-8DC3-D3D0-3206-08B208ADE49A">
+<createdBy>Pichau</createdBy>
+<createdTime>2023-05-09 02:06:14 UTC</createdTime>
+<generatorID>012C9E9C-25CC-21EE-1E1B-B92176C3DA94</generatorID>
+<ownerDesignName>bruna-fotografia-vinicius-de-abreu-cavalcante-86108-dmd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>100000</dataTypePrecision>
+<ownDataTypeParameters>,100000,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="entregue" id="803B6F11-6DE7-F91C-0B89-45BF971D035D">
+<createdBy>Pichau</createdBy>
+<createdTime>2023-05-09 02:06:14 UTC</createdTime>
+<generatorID>3FB73E0E-7E5C-F57E-EC34-E4D2A957AC07</generatorID>
+<ownerDesignName>bruna-fotografia-vinicius-de-abreu-cavalcante-86108-dmd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FOTOGRAFA_id_pessoa" id="43C5B632-F654-05A3-64F0-3DDC89EBF63B">
+<createdBy>Pichau</createdBy>
+<createdTime>2023-05-09 02:06:14 UTC</createdTime>
+<generatorID>1C300FD9-C534-3845-7447-1924E52C606A</generatorID>
+<ownerDesignName>bruna-fotografia-vinicius-de-abreu-cavalcante-86108-dmd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>100000</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6B737E32-9986-961D-AB6A-517420298412" referredColumn="1CD9DBD1-86CA-725F-3D63-8E1BB254CA86"/>
+</associations>
+</Column>
+<Column name="CLIENTE_id_pessoa" id="A73140D8-408B-DF42-D7BB-F04679F2ACB2">
+<createdBy>Pichau</createdBy>
+<createdTime>2023-05-09 02:06:14 UTC</createdTime>
+<generatorID>01F88213-7B1B-E97B-E2E3-FD9FBB5414E3</generatorID>
+<ownerDesignName>bruna-fotografia-vinicius-de-abreu-cavalcante-86108-dmd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>100000</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4B43D694-A8FD-01CE-2AA6-5A826379B6D8" referredColumn="9C094344-B4DC-AB6E-65FE-012B2F6D74CE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A6BEF85C-0100-0B65-1289-EBF5B704ED70" name="ENSAIO_PK">
+<createdBy>Pichau</createdBy>
+<createdTime>2023-05-09 02:06:14 UTC</createdTime>
+<generatorID>C44A6815-2C2A-CE41-C32D-94F737D2FB5C</generatorID>
+<ownerDesignName>bruna-fotografia-vinicius-de-abreu-cavalcante-86108-dmd</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5C1A4AB6-78D1-5C4B-F2C6-B275657EC998"/>
+<colUsage columnID="43C5B632-F654-05A3-64F0-3DDC89EBF63B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="03DD3AB3-D410-FA5B-B417-D6CA87803D65" name="ENSAIO_FOTOGRAFA_FK">
+<createdBy>Pichau</createdBy>
+<createdTime>2023-05-09 02:06:14 UTC</createdTime>
+<generatorID>C47CE34D-1FFE-F64E-6FFA-8C082C60F899</generatorID>
+<ownerDesignName>bruna-fotografia-vinicius-de-abreu-cavalcante-86108-dmd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="43C5B632-F654-05A3-64F0-3DDC89EBF63B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="58CA5DE6-54E9-2F32-762C-B1832EF0EECA" name="ENSAIO_CLIENTE_FK">
+<createdBy>Pichau</createdBy>
+<createdTime>2023-05-09 02:06:14 UTC</createdTime>
+<generatorID>EA83796A-5BF2-7D92-EC4C-1A5EB1EBBDC7</generatorID>
+<ownerDesignName>bruna-fotografia-vinicius-de-abreu-cavalcante-86108-dmd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A73140D8-408B-DF42-D7BB-F04679F2ACB2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

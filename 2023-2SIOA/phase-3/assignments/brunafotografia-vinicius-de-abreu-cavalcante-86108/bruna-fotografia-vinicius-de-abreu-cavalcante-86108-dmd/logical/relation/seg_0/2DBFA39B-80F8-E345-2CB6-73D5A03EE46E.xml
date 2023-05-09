@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_7" directorySegmentName="seg_0" id="2DBFA39B-80F8-E345-2CB6-73D5A03EE46E">
+<createdBy>Pichau</createdBy>
+<createdTime>2023-05-09 02:03:42 UTC</createdTime>
+<ownerDesignName>bruna-fotografia-vinicius-de-abreu-cavalcante-86108-dmd</ownerDesignName>
+<engineerTo>
+<item key="72AC1F5A-E2C8-5F22-65E1-99A1DF44A6FD" value="true"/>
+</engineerTo>
+<sourcePk>C44A6815-2C2A-CE41-C32D-94F737D2FB5C</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>62EF7F61-0C50-D1ED-A102-DC272FF5A415</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>32CA00EE-4C5D-8CB6-F5C6-8FD64247EB69</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

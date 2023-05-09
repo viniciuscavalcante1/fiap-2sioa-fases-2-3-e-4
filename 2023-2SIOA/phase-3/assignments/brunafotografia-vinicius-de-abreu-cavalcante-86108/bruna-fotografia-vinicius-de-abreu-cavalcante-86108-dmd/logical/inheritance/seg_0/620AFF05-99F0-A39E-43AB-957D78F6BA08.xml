@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.InheritanceRelation" name="Hierarchy_5" directorySegmentName="seg_0" id="620AFF05-99F0-A39E-43AB-957D78F6BA08">
+<createdBy>Pichau</createdBy>
+<createdTime>2023-05-09 01:47:34 UTC</createdTime>
+<ownerDesignName>bruna-fotografia-vinicius-de-abreu-cavalcante-86108-dmd</ownerDesignName>
+<engineerTo>
+<item key="72AC1F5A-E2C8-5F22-65E1-99A1DF44A6FD" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<nameOnSource>Super Type</nameOnSource>
+<nameOnTarget>Sub Type</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceEntity>10E64822-7BEE-899C-D2BD-7AF228B047C4</sourceEntity>
+<targetEntity>7C08F6DF-7EEF-927E-B265-AA985ACA3D91</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="BDE9B6EF-80A4-7704-6E94-AE6F22F5148C" containerWithKeyObject="994ADD90-506B-DA1C-355F-E417951C6D56" localFKIndex="53F598EE-3721-272B-B936-C8115CE31407" name="EMAIL_PESSOA_FK">
+<createdBy>Pichau</createdBy>
+<createdTime>2023-05-09 01:45:10 UTC</createdTime>
+<generatorID>638E46CE-271E-3375-988B-F915B61BDD58</generatorID>
+<ownerDesignName>bruna-fotografia-vinicius-de-abreu-cavalcante-86108-dmd</ownerDesignName>
+<referredTableLongName>T_PESSOA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>6FA6BB10-DE2F-8F8E-9285-B8A48A19A9C3</referredTableID>
+<keyObject>A5AB4E0A-A60D-38F9-E2DD-443871946748</keyObject>
+<referredKeyID>A5AB4E0A-A60D-38F9-E2DD-443871946748</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_pessoa</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
