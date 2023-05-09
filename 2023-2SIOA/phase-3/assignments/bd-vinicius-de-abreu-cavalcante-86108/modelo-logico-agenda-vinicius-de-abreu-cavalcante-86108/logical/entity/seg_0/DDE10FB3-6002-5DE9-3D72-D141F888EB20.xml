@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DDE10FB3-6002-5DE9-3D72-D141F888EB20" name="TELEFONE">
+<createdBy>Pichau</createdBy>
+<createdTime>2023-05-09 00:49:05 UTC</createdTime>
+<ownerDesignName>modelo-logico-agenda-vinicius-de-abreu-cavalcante-86108</ownerDesignName>
+<engineerTo>
+<item key="F0108765-27FC-09CB-53C9-E970786C9A25" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_telefone" id="C33AC7E3-FE76-9A8C-515A-655E3E334851">
+<createdBy>Pichau</createdBy>
+<createdTime>2023-05-09 00:51:46 UTC</createdTime>
+<ownerDesignName>modelo-logico-agenda-vinicius-de-abreu-cavalcante-86108</ownerDesignName>
+<engineerTo>
+<item key="F0108765-27FC-09CB-53C9-E970786C9A25" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_ddd" id="B73B353E-33A8-A768-229A-C6856E212C43">
+<createdBy>Pichau</createdBy>
+<createdTime>2023-05-09 00:50:04 UTC</createdTime>
+<ownerDesignName>modelo-logico-agenda-vinicius-de-abreu-cavalcante-86108</ownerDesignName>
+<engineerTo>
+<item key="F0108765-27FC-09CB-53C9-E970786C9A25" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_telefone" id="5254A02B-D245-64A2-0BAC-2F53EFDF866D">
+<createdBy>Pichau</createdBy>
+<createdTime>2023-05-09 00:51:14 UTC</createdTime>
+<ownerDesignName>modelo-logico-agenda-vinicius-de-abreu-cavalcante-86108</ownerDesignName>
+<engineerTo>
+<item key="F0108765-27FC-09CB-53C9-E970786C9A25" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_ramal" id="20BD35BE-BF0C-1AC5-7D5A-4452116270E3">
+<createdBy>Pichau</createdBy>
+<createdTime>2023-05-09 00:54:55 UTC</createdTime>
+<ownerDesignName>modelo-logico-agenda-vinicius-de-abreu-cavalcante-86108</ownerDesignName>
+<engineerTo>
+<item key="F0108765-27FC-09CB-53C9-E970786C9A25" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_pessoa" id="BC13662A-FFF4-910D-96DB-30A973FC488F">
+<createdBy>Pichau</createdBy>
+<createdTime>2023-05-09 01:16:05 UTC</createdTime>
+<generatorID>9068CCB3-6968-E60F-28D4-CC4388F20106</generatorID>
+<ownerDesignName>modelo-logico-agenda-vinicius-de-abreu-cavalcante-86108</ownerDesignName>
+<engineerTo>
+<item key="F0108765-27FC-09CB-53C9-E970786C9A25" value="true"/>
+</engineerTo>
+<referedAttribute>EA693118-09DD-E09D-4B07-C8E05455A780</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="878FA572-3223-5553-0CAD-EB80E8B502B5" name="TELEFONE PK">
+<createdBy>Pichau</createdBy>
+<createdTime>2023-05-09 00:51:55 UTC</createdTime>
+<ownerDesignName>modelo-logico-agenda-vinicius-de-abreu-cavalcante-86108</ownerDesignName>
+<engineerTo>
+<item key="F0108765-27FC-09CB-53C9-E970786C9A25" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C33AC7E3-FE76-9A8C-515A-655E3E334851</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

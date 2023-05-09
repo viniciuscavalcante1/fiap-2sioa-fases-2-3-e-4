@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="POSSUIv2" directorySegmentName="seg_0" id="638E46CE-271E-3375-988B-F915B61BDD58">
+<createdBy>Pichau</createdBy>
+<createdTime>2023-05-09 01:03:19 UTC</createdTime>
+<ownerDesignName>modelo-logico-agenda-vinicius-de-abreu-cavalcante-86108</ownerDesignName>
+<engineerTo>
+<item key="F0108765-27FC-09CB-53C9-E970786C9A25" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>10E64822-7BEE-899C-D2BD-7AF228B047C4</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>1B6121BF-A27B-0C68-A8F0-8F85CB99FBFB</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

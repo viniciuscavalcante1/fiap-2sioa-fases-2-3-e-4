@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1B6121BF-A27B-0C68-A8F0-8F85CB99FBFB" name="EMAIL">
+<createdBy>Pichau</createdBy>
+<createdTime>2023-05-09 00:49:19 UTC</createdTime>
+<ownerDesignName>modelo-logico-agenda-vinicius-de-abreu-cavalcante-86108</ownerDesignName>
+<engineerTo>
+<item key="F0108765-27FC-09CB-53C9-E970786C9A25" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_email" id="ED0E0EA5-8655-09FC-059F-CD4520942737">
+<createdBy>Pichau</createdBy>
+<createdTime>2023-05-09 00:53:36 UTC</createdTime>
+<ownerDesignName>modelo-logico-agenda-vinicius-de-abreu-cavalcante-86108</ownerDesignName>
+<engineerTo>
+<item key="F0108765-27FC-09CB-53C9-E970786C9A25" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<structuredType>47E390DE-0671-C4B1-8428-0F45CBEE18F8</structuredType>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email" id="EE683993-4EB7-5860-F3A6-A70AB2955EB8">
+<createdBy>Pichau</createdBy>
+<createdTime>2023-05-09 00:53:02 UTC</createdTime>
+<ownerDesignName>modelo-logico-agenda-vinicius-de-abreu-cavalcante-86108</ownerDesignName>
+<engineerTo>
+<item key="F0108765-27FC-09CB-53C9-E970786C9A25" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="provedor" id="BBA7F2EA-5DCA-D43F-26AC-780ED670763E">
+<createdBy>Pichau</createdBy>
+<createdTime>2023-05-09 00:55:41 UTC</createdTime>
+<ownerDesignName>modelo-logico-agenda-vinicius-de-abreu-cavalcante-86108</ownerDesignName>
+<engineerTo>
+<item key="F0108765-27FC-09CB-53C9-E970786C9A25" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_pessoa" id="A223DED4-9F2D-BAFD-754D-3B551C774669">
+<createdBy>Pichau</createdBy>
+<createdTime>2023-05-09 01:16:05 UTC</createdTime>
+<generatorID>638E46CE-271E-3375-988B-F915B61BDD58</generatorID>
+<ownerDesignName>modelo-logico-agenda-vinicius-de-abreu-cavalcante-86108</ownerDesignName>
+<engineerTo>
+<item key="F0108765-27FC-09CB-53C9-E970786C9A25" value="true"/>
+</engineerTo>
+<referedAttribute>EA693118-09DD-E09D-4B07-C8E05455A780</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0449D8E9-BF20-E4AB-DB98-F1F94C2C0FD8" name="EMAIL PK">
+<createdBy>Pichau</createdBy>
+<createdTime>2023-05-09 00:53:23 UTC</createdTime>
+<ownerDesignName>modelo-logico-agenda-vinicius-de-abreu-cavalcante-86108</ownerDesignName>
+<engineerTo>
+<item key="F0108765-27FC-09CB-53C9-E970786C9A25" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>ED0E0EA5-8655-09FC-059F-CD4520942737</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

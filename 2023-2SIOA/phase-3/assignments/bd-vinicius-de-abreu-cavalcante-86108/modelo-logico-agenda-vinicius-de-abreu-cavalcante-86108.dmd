@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="modelo-logico-agenda-vinicius-de-abreu-cavalcante-86108" id="F5CB5467-C705-B909-44F9-6FBD08D2E3E3" version="3.5">
+<createdBy>Pichau</createdBy>
+<createdTime>2023-05-09 00:39:46 UTC</createdTime>
+<ownerDesignName>modelo-logico-agenda-vinicius-de-abreu-cavalcante-86108</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>F5CB5467-C705-B909-44F9-6FBD08D2E3E3</designId>
+</OSDM_Design>
