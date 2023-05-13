@@ -1,0 +1,38 @@
+{
+	"nodes":[
+		{"id":"eeb6ca9a207fecd0","x":420,"y":-340,"width":420,"height":580,"type":"file","file":"Atomic Notes/Direito Digital.md"},
+		{"id":"43cfefab4633fe1e","x":940,"y":-340,"width":400,"height":840,"type":"file","file":"Atomic Notes/Cibersegurança.md"},
+		{"id":"05b1f8e077e0a73b","x":1400,"y":-340,"width":400,"height":500,"type":"file","file":"Atomic Notes/Engenharia Social.md"},
+		{"id":"5397b7e88566956f","x":1400,"y":220,"width":400,"height":520,"type":"file","file":"Atomic Notes/Crimes eletrônicos.md"},
+		{"id":"e1abb41bb1d8bbe0","x":-700,"y":-320,"width":580,"height":900,"type":"file","file":"Atomic Notes/Design Sprint.md"},
+		{"id":"a6051264ecbbd6a6","x":-20,"y":-320,"width":365,"height":141,"type":"file","file":"Atomic Notes/Google Ventures.md"},
+		{"id":"9d64462cef9a2da0","x":468,"y":1240,"width":710,"height":540,"type":"file","file":"Atomic Notes/Medidas de Dispersão.md"},
+		{"id":"0148c79061ea448d","x":468,"y":1860,"width":315,"height":440,"type":"file","file":"Atomic Notes/Amplitude.md"},
+		{"id":"958d2f7d93666e1d","x":823,"y":1860,"width":300,"height":480,"type":"file","file":"Atomic Notes/Variância.md"},
+		{"id":"91714dbcc5042056","x":1178,"y":1860,"width":325,"height":480,"type":"file","file":"Atomic Notes/Desvio Padrão.md"},
+		{"id":"1eb5027700a1201e","x":-717,"y":1240,"width":640,"height":540,"type":"file","file":"Atomic Notes/Medidas de Posição.md"},
+		{"id":"e6239dd322501a2c","x":-717,"y":1860,"width":290,"height":440,"type":"file","file":"Atomic Notes/Média.md"},
+		{"id":"7f8319323f44487c","x":-397,"y":1860,"width":300,"height":480,"type":"file","file":"Atomic Notes/Mediana.md"},
+		{"id":"b05380a20c89518d","x":-57,"y":1860,"width":260,"height":480,"type":"file","file":"Atomic Notes/Moda.md"},
+		{"id":"d4c8c172efb0393e","x":-717,"y":680,"width":400,"height":400,"type":"file","file":"Atomic Notes/Estatística.md"},
+		{"id":"2dcdc9a37500fe2d","x":1600,"y":1240,"width":440,"height":480,"type":"file","file":"Atomic Notes/Probabilidade.md"},
+		{"id":"da3000871027f4e6","x":2200,"y":1240,"width":600,"height":540,"type":"file","file":"Atomic Notes/Variáveis Aleatórias.md"}
+	],
+	"edges":[
+		{"id":"f01803b84ffbed4d","fromNode":"eeb6ca9a207fecd0","fromSide":"right","toNode":"43cfefab4633fe1e","toSide":"left"},
+		{"id":"e30abf23dd0cd6b6","fromNode":"43cfefab4633fe1e","fromSide":"right","toNode":"05b1f8e077e0a73b","toSide":"left"},
+		{"id":"38fc2e990ff3737e","fromNode":"43cfefab4633fe1e","fromSide":"right","toNode":"5397b7e88566956f","toSide":"left"},
+		{"id":"c269a16bcfaefe08","fromNode":"e1abb41bb1d8bbe0","fromSide":"right","toNode":"a6051264ecbbd6a6","toSide":"left"},
+		{"id":"634558942206e60f","fromNode":"1eb5027700a1201e","fromSide":"bottom","toNode":"e6239dd322501a2c","toSide":"top"},
+		{"id":"326d1a68a2d439c1","fromNode":"1eb5027700a1201e","fromSide":"bottom","toNode":"7f8319323f44487c","toSide":"top"},
+		{"id":"f7680f262779c451","fromNode":"1eb5027700a1201e","fromSide":"bottom","toNode":"b05380a20c89518d","toSide":"top"},
+		{"id":"4916539610d1504c","fromNode":"1eb5027700a1201e","fromSide":"right","toNode":"9d64462cef9a2da0","toSide":"left"},
+		{"id":"7839ece766bd678e","fromNode":"9d64462cef9a2da0","fromSide":"bottom","toNode":"0148c79061ea448d","toSide":"top"},
+		{"id":"fbf5a4628c419c7c","fromNode":"9d64462cef9a2da0","fromSide":"bottom","toNode":"958d2f7d93666e1d","toSide":"top"},
+		{"id":"547e89200e0769ed","fromNode":"9d64462cef9a2da0","fromSide":"bottom","toNode":"91714dbcc5042056","toSide":"top"},
+		{"id":"260f9d514321432e","fromNode":"d4c8c172efb0393e","fromSide":"bottom","toNode":"1eb5027700a1201e","toSide":"top"},
+		{"id":"94f735243c8ea10a","fromNode":"d4c8c172efb0393e","fromSide":"bottom","toNode":"9d64462cef9a2da0","toSide":"top"},
+		{"id":"954fd21663d6535b","fromNode":"d4c8c172efb0393e","fromSide":"right","toNode":"2dcdc9a37500fe2d","toSide":"top"},
+		{"id":"91306396235708f2","fromNode":"d4c8c172efb0393e","fromSide":"right","toNode":"da3000871027f4e6","toSide":"top"}
+	]
+}
